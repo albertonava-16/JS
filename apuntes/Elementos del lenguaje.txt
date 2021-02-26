@@ -1,0 +1,66 @@
+Elementos de un lenguaje de programaciòn: Variables, funciones y Sintaxis.
+
+Dos componentes principales 
+1.- Data que guardamos en memoria.
+2. Tareas (Funciones) que haremos con esa data.
+
+
+Tipos de datos en JavaScript
+
+1.- Tipos primitivos
+ * Nombre: Descripciòn aprendeaprogramar.com
+ * String: Cadenas de texto
+ * Number: Valores numèricos
+ * Boolean: Verdadero o falso
+ * Null: Tipo especial, contiene Null
+ * Undefined: tipo especial, contiene undefined
+
+2.- Tipos Objeto
+ * Tipos predifinidos de JS
+   - Date (fechas)
+   - RegExp (expresiones regulares)
+   - Error (datos de error)
+
+ * Tipos definidos por el programador/Usuario
+   - Funciones simples
+   - Clases
+
+ * Arrays 
+   - Serie de elementos o formaciòn tipo vector o matriz. Lo      consideraremos un objeto especial.
+
+  * Objetos especiales
+   - Objeto global
+   - Objeto prototipo
+   - Otros.
+
+--------------------------------------------
+Archivos ".js"
+
+Valores primitivos
+1.- 40  -->> valor tipo nùmero
+2.- "Josè Alberto" -->> Valor tipo de tèxto, string (cadena de texto, para llamar despues)
+3.- True/false -->> Valor de tipo boolean, es importante para tomar desiciòn.
+4.- null -->> valores vacios, Valores reservados para un valor faltante
+4.1.- Undefined -->> valores vacios, Valores reservados para un valor faltante
+
+Valores no primitivos 
+
+[1,2,3] -->> Valor tipo Array, por lo regular se introducen valores primitivos tipo Objeto.
+{ nombre: "José Alberto"} -->> Objeto, o valor tipo Objeto.
+
+Ejemplo en el inspector de texto
+Console
+
+
+> 40
+<- 40 información guardada, (variable)
+
+typeof 40 el tipo del valor número
+typeof "" string (sin importar el contenido)
+typeof Oscar valor undefined, 
+typeof true tipo boolean
+typeof null tipo objeto
+typeof []; tipo objeto
+typeof {}; tipo objeti 
+
+ 

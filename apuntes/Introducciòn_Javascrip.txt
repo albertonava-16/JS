@@ -1,0 +1,54 @@
+JavaScrip 
+
+Es un lenguajte interpretado, ya que las funciones y errores se validan al momento del RuneTime.
+
+¿Realmente es Javascript un lenguaje interpretado?
+Si, y la razón es que le navegador lee linea por linea nuestro código el cuál le indica lo que tiene que hacer, sin la necesidad de compilar. Todo esto es controlado por el motor de Javascript V8 del navegador
+
+Débilmente tipado
+Se pueden hacer operaciones entre tipos distintos de datos (enteros con strings, booleanos con enteros, etc). Ejemplo:
+4 + "7"; // 47
+4 * "7"; // 28
+2 + true; // 3
+false - 3; // -3
+
+
+Forwards
+Ser compatible con versiones futuras, significa que incluir una adiciòn al lenguuuaje en un programa no causaria que se rompa si se ejecuta en un motor JS anterior. JS no es compatible con versiones futuras.
+
+
+----- JS es Backwards Compatible ----
+La compatibilidad con versiones anteriores significa que cuando se acepta como JS vàlido, no habrà un cambio futuro que haga que el còdigo deje de funcionar.
+
+Todas las versiones de JS que salen, deben ser trabajadas por la W3C, para poder ser estandar y sea entendible por el navegador. 
+
+Babel
+Es un compilador de JS, que te permite utilizar las nuevas versiones de JS en tu entorno de trabajo, Babel traduce la nueva versiòn a una versiòn estandar.
+---------------------------------------------------------
+
+Html
+Lenguaje para poder maquetar todo el texto y contenido que quieres mostrar.
+
+Css
+Lenguaje de estilos, para estilizar el HTML
+
+JS
+Para poder generar una App Web o para hacer una pàgina dinamica.
+La W3C.
+
+WebAssembly
+Lenguaje para poder hacer productos web sin utilizar Html, Css y JS.
+----------------------------------
+
+JS 
+Si solo estuvieras interesado en trabajar aplicaciones web tienes muchos frameworks y librerías construidas en JavaScript que te van a ayudar a hacer proyectos de forma mucho mas rápida, eficiente y robusta (Angular, View, React,entre otros)
+
+Sì, no estas interezado en sòlo crear productos web
+Puedes usar JS con un framework como React Native, para poder construir aplicaciones nativas como Android y IOS.
+
+Con Electron app para escritorio para Mac y Windows
+
+Para el Back-End/IOT (IOT = internet de las cosas)
+puedes utilizar Node JS.
+
+J

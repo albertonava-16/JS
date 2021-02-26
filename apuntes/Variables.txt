@@ -1,0 +1,29 @@
+Variables
+
+Que es una variable
+
+es la representacion de algun lugar en memoria que se va a reservar para un valor.
+----------------------------
+var es la representación donde vamos a guardar valores
+----------------------
+ejemplo 
+
+var nombre = "José Alberto";
+
+hay 2 estados de una variable
+declarar una variable 
+
+var edad; 
+<< inicializar >>
+edad = 30;
+
+
+var elementos = ["computadore", "celular"];
+var persona = {
+    nombre: "Jose",
+    edad: 30
+}
+
+persona
+------------------
+

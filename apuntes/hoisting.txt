@@ -1,0 +1,7 @@
+Hoisting
+ 
+es cuando las variables y funciones se declaran antes que se ejecutecualquier tipo de código.
+
+sólo es con versiones pasadas de JS, variable y funcion 
+emaiscrip 6 ya no funciona. 
+

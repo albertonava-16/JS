@@ -1,0 +1,42 @@
+¿Que es el Scope?
+se pueden evitar problemas a futuro
+
+es el alcance que tienen las variables.
+depende mucho de donde declares e inicializes una variable para ver si vas a tener acceso o no.
+
+scope global
+
+aqui van a exitir todas las variable sy funciones que hagamos
+
+y scope local 
+al iniciar una funcion, se va a iniciar sólo lo que se encuentra dentro.
+
+si tengo una variable declarada en el scope global, se va a tener acceso.
+
+<<<<<<<<  SCOPE GLOBAL >>>>>>
+var nombre = "Diego;"
+
+FUNCTION FUN() {
+ var apellido = "Sánchez Nava";
+return nombre + "" + apellido
+}
+
+si en SCOPE GLOBAL
+
+intento acceder lo del scope local, no tendré acceso.
+a menos que agregue un console.log con la variable.
+
+
+<<<<<<<<<<<<<<<<<< EJEMPLO EN CONSOLA >>>>>>>>>>>>>><
+
+var miNombre = "José A.";
+
+function nombre(){
+  var miApellido = "Sánchez Nava";
+  console.log(miNombre + " " + miApellido);
+}
+
+nombre ();
+ José A. Sánchez Nava
+
+Puedo mandar a llamar la variable miNombre ya que se encuentra en el Scope Global, sin embargo al mandar a llamar miApellido que se encuentra en el scope local brindará error 

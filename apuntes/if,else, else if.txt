@@ -1,0 +1,15 @@
+if, Else, else if
+
+if (lo que se ponga aqui tiene que ser verdad:true) {
+console.log ("Hola")
+} else si lo que esta arriba es falso
+{ console.log ("soy falso")
+}
+
+condition ? true : false; 
+sintaxis de un operador ternario, simiar a un if y else en una sola línea de codigo.
+
+var número = 1; (esta es mi variable)
+
+var resultado = número === 1 ? "Sí soy un uno" : "No, no soy un uno"
+

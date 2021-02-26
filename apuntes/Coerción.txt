@@ -1,0 +1,49 @@
+Coerción
+
+Las coerciones implicitas el lenguaje nos ayuda a cambiar de un valor a otro tipo de valor.
+
+Coerción es cuando podemos cambiar un valor de número a string o viseversa 
+
+coerción explicita es la forma explicita en la que nosotros obligamos al valor cambiar de un valor a otro.
+
+Al trabajar con un input en HTML, al ingresar un número el usuario regresará como un string, por lo que se deberá cambiar a un número.
+
+Ejemplo:
+
+var a = 20; <<<<< 20 es un número
+var b = a + "";
+
+> console-log(b)
+20 <<<< ya se convirtio en un string
+typeof b
+"string"
+-------------------------
+var c = String(a) coercionexplicita, queremos que el 20 se convierta en un string sin tener que concatenarlo.
+
+var c = String(a) <<< metemos la variable que queremos concatenar;
+
+comprobación
+typeof c
+string
+
+
+para convertirlo a número
+d = Number(c)
+
+comprobación
+typeof d
+númber
+
+--------------------------
+
+
+ParseInt vs Number
+
+ParseInt: Analiza la cadena desde el primer dígito, hasta que encuentre algo que no sea dígito y devuelve lo que haya analizado.
+Ejemplo:
+parseInt(“123hui”) //123
+Number: Busca convertir toda la cadena en un número, por lo que al encontrarse con un elemento que no sea diginto nos dara como resultado NAN.
+Ejemplo:
+Number(“123hui”) //NaN
+
+Cada día se aprende algo nuevo, no pierdas esa oportunidad y no pares de aprender.

@@ -1,0 +1,19 @@
+Switch es una forma de generar una condición.
+Si el caso es verdad sucede esto, si no es verdad pueden existir otros casos como el If, 
+
+var numero = 1
+
+switch (numero) {
+ case 1: 
+  console.log ("Soy uno!");
+  break;
+ case 2:
+  console.log("soy un 10");
+   break;
+ case 3:
+  console.log ("Soy un100");
+  break;
+ default:
+   console.log("No soy nada") 
+
+}

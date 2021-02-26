@@ -1,0 +1,35 @@
+¿Que son los operadores?
+
+para hacer operaciones, suma, multiplicación y aritméticos
++ - * /, operadores binarios, no sólo sirve para números, también para concatenar string's
+
+!false << estamos negando que sea falase ! negación, operador unitarios
+
+asignación 
+var a = 1;  asignando un valor. 
+
+comparando
+3 == "3";  <<< esta comparando el valor perse (el 3 y 3)
+
+comparando de manera extricta
+3 === "3"; los 2 valores son iguales pero uno no esta dentro el string, por lo que procede a ser falso.
+
+
+comparación 
+comparar si un número es menor
+5 < 3 falso, 5 no es menor que 3
+5 > 3 true, 5 si es mayor que tres
+5 <= 6 5 es mayor o igual a 6,
+5 >= 6 falso, porque cinco no es mayor y tampoco es igual.
+
+a && b si a es verdad y b es verdad, se cumple la condición,
+a || b si alguna es verdad, una U otra se cumple la condición.
+-------------------------
+
+var edad = 40 
+edad++  esto logra incrementar por 1
+comprobación 
+41
+
+edad += 2
+43

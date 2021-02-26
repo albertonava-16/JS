@@ -1,0 +1,46 @@
+¿Qué son las funciones?
+
+las funciones son un conjunto de sentencias que podemos usar para generar acciones con los datos de las variables.
+
+2 tipos de funciones
+declarativas y funciones de expresión
+
+¿como mando a llamar una declarativa?
+
+function palabra clave
+
+function miFuncion () {
+  return 3; 
+}
+
+una función de exrepsión
+
+var miFuncion = function () {
+    return a + b;
+}
+
+parametros son necesarios para las funciones
+
+var miFuncion = function (a,b) {
+a+b
+}
+
+miFuncion ();
+----------------------------
+
+ejemplos en la consola 
+function sumar(a,b) {
+   var resultado = a + b;
+   return resultado;
+}
+undefined
+sumar (100,245);
+345  <<<< resultado que brinda en aautomatico 
+-----------------------
+
+function sumar(a,b) {
+   return a + b;
+}
+undefined
+sumar(1,2);
+3
